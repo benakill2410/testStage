@@ -1,0 +1,18 @@
+{
+  "build": {
+    "emulator": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "emulator2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "emulator3": {
+      "developmentClient": true
+    },
+    "production": {}
+  }
+}
